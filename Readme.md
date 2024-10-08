@@ -1,4 +1,4 @@
-# SQL
+# Superstore
 #This project utilizes the following Superstore data: 
 SQL Portfolio
 CREATE TABLE superstore (
