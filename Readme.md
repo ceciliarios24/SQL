@@ -1,4 +1,5 @@
 # SQL
+#This project utilizes the following Superstore data: 
 SQL Portfolio
 CREATE TABLE superstore (
     item_id INTEGER PRIMARY KEY,
@@ -32,7 +33,9 @@ Select *
 From superstore
 Order by price Desc;
 
-# Use a select statement to find the sum of the prices of items
+
+
+#use a select statement to find the sum of the prices of items
 select sum (price), item_name
 from superstore
 group by item_name;
